@@ -44,7 +44,7 @@
     .detail-card img[alt="post-img"] {
         height: auto;
     }
-    .detail author-sharing {
+    #detail-author-sharing {
         width: 25%;
     }
 }
