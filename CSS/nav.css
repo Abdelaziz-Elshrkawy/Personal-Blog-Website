@@ -4,6 +4,9 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
+    background-color: rgba(240, 248, 255, 0.781);
+    grid-row: 1;
+    height: 40px;
 }
 #nav-list {
     display: flex;
@@ -17,14 +20,14 @@ nav {
     text-decoration: none;
     font-family: exo2;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
     color: black;
     transition: 0.3s all;
 }
 #nav-logo-container {
     margin-top: 5px;
     margin-left: 10px;
-    width: 30px;
+    width: 40px;
     height: 100%;
 }
 #nav-logo {
@@ -34,7 +37,7 @@ nav {
 
 @media (min-width: 800px) {
     #nav-list a {
-        font-size: 2.7em;
+        font-size: 2em;
     }
     #nav-logo-container {
         width: 70px;
