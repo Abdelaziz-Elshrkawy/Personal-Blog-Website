@@ -1,0 +1,14 @@
+@font-face {
+    font-family: anton;
+    src: url(../Fonts/Anton-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: nerko-one;
+    src: url(../Fonts/NerkoOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: exo2;
+    src: url(../Fonts/Exo2-VariableFont_wght.ttf) format("truetype");
+}
