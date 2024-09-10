@@ -45,7 +45,19 @@ main {
 .read-more {
     font-size: 0.6em;
 }
-
+#log-btn {
+    margin-right: 30px;
+}
+#log-btn button {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: exo2;
+    font-size: 1em;
+}
 @media (min-width: 600px) {
     main {
         margin-inline: 100px;
@@ -63,6 +75,9 @@ main {
     }
     .author-sharing {
         width: 35%;
+    }
+    #log-btn button {
+        font-size: 1.3em;
     }
 }
 
